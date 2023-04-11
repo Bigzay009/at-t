@@ -1,0 +1,522 @@
+.w-checkbox {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+
+.w-checkbox::before {
+  content: ' ';
+  display: table;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+.w-checkbox::after {
+  content: ' ';
+  display: table;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  clear: both;
+}
+
+.w-checkbox-input {
+  float: left;
+  margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: 0px;
+  margin-top: 4px;
+  line-height: normal;
+}
+
+.w-checkbox-input--inputType-custom {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-color: #ccc;
+  border-bottom-color: #ccc;
+  border-left-color: #ccc;
+  border-right-color: #ccc;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  width: 12px;
+  height: 12px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  background-color: #3898ec;
+  border-top-color: #3898ec;
+  border-bottom-color: #3898ec;
+  border-left-color: #3898ec;
+  border-right-color: #3898ec;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-focus {
+  box-shadow: 0px 0px 3px 1px #3898ec;
+}
+
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 114vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25rem;
+  min-height: 42.6rem;
+  padding: 0px 23px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.form {
+  width: 100%;
+}
+
+.form-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-2 {
+  width: 4rem;
+  height: 1.8rem;
+  margin-top: 2.2rem;
+  padding: 0px;
+}
+
+.image {
+  width: 100%;
+  max-width: none;
+}
+
+.field-label {
+  font-family: Varela, sans-serif;
+  font-weight: 400;
+}
+
+.field-label.left {
+  color: #0057b8;
+  text-align: right;
+}
+
+.text-field {
+  height: 3.2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #616161;
+  border-radius: 4px;
+}
+
+.zamalo.text-field {
+  font-family: Thezoz, sans-serif;
+  font-size: 16px;
+}
+
+.heading {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+}
+
+.heading.lala {
+  margin-top: -9px;
+  font-size: 1.3rem;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.submit-button {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #0057b8;
+  font-family: Exo, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+.checkbox {
+  width: 1.7rem;
+  height: 1.6rem;
+  margin-top: 0px;
+  border-color: #616161;
+}
+
+.checkbox-label {
+  margin-bottom: 0px;
+  margin-left: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.checkbox-field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.link.submit-button {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.link.submit-button:hover {
+  text-decoration: underline;
+}
+
+.div-block-4 {
+  width: 100%;
+  height: 1px;
+  background-color: #d6d6d6;
+}
+
+.text-block {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.bold-text {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link-2 {
+  text-decoration: none;
+}
+
+.link-3 {
+  display: block;
+  margin-top: 0px;
+  margin-right: 18px;
+  text-decoration: none;
+}
+
+.div-block-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 40%;
+  margin-top: 1.8rem;
+  padding: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bold-text-2 {
+  font-family: Exo, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.text-block-2 {
+  margin-top: 8px;
+}
+
+.bold-text-3 {
+  font-family: Exo, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.section-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.div-block-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40rem;
+  min-height: 22.4rem;
+  padding: 47px 88px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #fff;
+}
+
+.div-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6.7rem;
+  height: 2.2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.image-2 {
+  width: 70%;
+  max-width: none;
+}
+
+.heading-2 {
+  margin-top: 1rem;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.paragraph {
+  margin-top: 0.6rem;
+  font-family: Exo, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0057b8;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .div-block-6 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-block-6 {
+    width: 99%;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block {
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .link-3 {
+    margin-bottom: 8px;
+    padding-right: 0px;
+    font-size: 0px;
+    text-align: center;
+  }
+
+  .div-block-5 {
+    width: 100%;
+    min-width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .bold-text-2 {
+    font-size: 0.8rem;
+  }
+
+  .text-block-2 {
+    margin-top: 15px;
+    margin-bottom: 16px;
+  }
+
+  .div-block-6 {
+    padding: 21px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .heading-2 {
+    text-align: center;
+  }
+
+  .paragraph {
+    text-align: center;
+  }
+}
+
+@font-face {
+  font-family: 'Thezoz';
+  src: url('../fonts/Thezoz-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
